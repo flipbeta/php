@@ -1,5 +1,7 @@
 FROM php:7.4-fpm-alpine
 
+ENV ASUSER=0
+
 RUN apk add --no-cache \
 		acl \
 		fcgi \
